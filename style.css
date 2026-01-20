@@ -1,0 +1,32 @@
+.hero-image{
+    border-radius: 100px;
+    
+}
+
+
+
+
+body {
+  font-family: 'Inter', sans-serif !important;
+}
+
+:root {
+  --bg: #f9fafb;
+  --text: #1f2937;
+  --subtext: #4b5563;
+  --accent: #2563eb;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+p {
+  color: var(--subtext);
+}
+
+.btn-primary {
+  background-color: var(--accent);
+  color: white;
+}
